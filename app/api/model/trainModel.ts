@@ -9,7 +9,7 @@ const getHousesPerYear = async () => {
     .count()
     .sortValues("YearBuilt", { ascending: true });
 
-  return subDf;
+  return toJSON(subDf);
 };
 
-export { getHousesPerYear, toJSON };
+export { getHousesPerYear };
