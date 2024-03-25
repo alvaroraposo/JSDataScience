@@ -1,0 +1,18 @@
+{
+  "name": "model",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "melbourne": "npx tsx melbourneModel.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "danfojs-node": "^1.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  }
+}
