@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "melbourne": "npx tsx melbourneModel.ts"
+    "melbourne": "npx tsx melbourneModel.ts",
+    "train": "npx tsx trainModel.ts"
   },
   "type": "module",
   "dependencies": {
+    "@tensorflow/tfjs-node": "^4.17.0",
     "danfojs-node": "^1.1.2",
+    "scikitjs": "^1.24.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
   },
